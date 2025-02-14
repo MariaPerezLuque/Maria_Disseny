@@ -1,0 +1,89 @@
+.el {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+ }
+
+/*general*/ 
+.general {
+    display: flex;
+    border: 1px solid black;
+}
+
+ /*ex 2*/
+.container2 {
+    display: flex;
+    border: 1px solid black;
+ }
+
+  /*ex 3*/
+ .container3 {
+    justify-content: space-evenly;
+ }
+  
+ /*ex 4*/
+.container4 {
+    justify-content: flex-end;
+ }
+
+ /*ex 5*/
+.container5 {
+    justify-content: space-evenly;
+    height: 400px;
+ }
+
+ /*ex 6*/
+.container6 {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    height: 400px;
+ }
+
+  /*ex 7*/
+ .container7 {
+    justify-content:flex-end;
+    height: 400px;
+    align-items:flex-end;
+    gap: 15px;
+ }
+  
+ /*ex 8*/
+.container8 {
+    height: 400px;
+    flex-direction: column;
+ }
+
+ /*ex 9*/
+.container9 {
+    justify-content: space-between;
+    height: 400px;
+    flex-direction: column;
+ }
+
+ /*ex 10*/
+.container10 {
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-end;
+    gap: 15px;
+    height: 400px;
+
+ }
+
+ /*colors*/
+ .blau {
+    background-color: rgb(200, 230, 255);
+ }
+
+ .rosa {
+    background-color: rgb(255, 179, 232);
+ }
+
+ .groc {
+    background-color: rgb(251, 253, 146);
+ }

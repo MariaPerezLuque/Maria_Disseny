@@ -1,0 +1,102 @@
+.col1 {
+    background-color: rgb(255, 216, 230);
+}
+
+.col2 {
+    background-color: rgb(184, 184, 255);
+}
+
+.col3 {
+    background-color: rgb(159, 212, 255);
+}
+
+.col4 {
+    background-color: rgb(255, 194, 108);
+}
+
+.col5 {
+    background-color: rgb(192, 255, 211);
+}
+
+.el {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: block;
+    font-size: 1.5em;
+    line-height: 3em;
+    text-align: center;
+    width: 3em;
+ }
+
+ .general {
+    display: grid;
+    border: 1px solid black;
+}
+
+.container {
+    grid-template-columns: 1fr 1fr;
+}
+
+.container2 {
+    grid-template-columns: 1fr 2fr 4fr 2fr;
+}
+
+.container5 {
+    grid-template-columns: 1fr 2fr 3fr 1fr;
+    /*flex pels numeros perque es centrin*/
+}
+
+.container6 {
+    grid-template-columns: 1fr 1fr 1fr 1fr  
+}
+
+.el1{
+ grid-column-start: 1;
+ grid-column-end: 3;   
+}
+
+.el2 {
+ grid-column-start: 3;
+ grid-column-end: 5;        /*grid-column 3/5*/ 
+ grid-row-start: 1;
+ grid-row-end: 3;   
+}
+
+/*grid-area: area 1
+
+container: 
+grid-template-area: "area1 area2 area3"
+  
+    compatible amb grid-template-columns / rows */
+
+
+.container 11 {
+    grid-template-area: "area1 area2 area3 area4 area5"
+}
+.eel1 {
+    grid-area: area1;
+}    
+.eel2 {
+    grid-area: area2;
+}    
+.eel3 {
+    grid-area: area3;
+}    
+.eel4 {
+    grid-area: area4;
+}    
+.eel5 {
+    grid-area: area5;
+}    
+.eel6 {
+    grid-area: area6;
+}    
+.eel7 {
+    grid-area: area7;
+}    
+.eel8 {
+    grid-area: area8;
+}    
+.eel9 {
+    grid-area: area9;
+}    
